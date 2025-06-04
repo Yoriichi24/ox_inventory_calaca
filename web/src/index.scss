@@ -4,7 +4,7 @@ $mainColor: #28282b;
 $textColor: #ffffff;
 $mainFont: 'Poppins', sans-serif;
 
-$secondaryColor: rgba(12, 12, 12, 0.6);
+$secondaryColor: rgba(25, 25, 25, 0.6);
 $secondaryColorHighlight: #303035;
 $secondaryColorLight: rgba(85, 85, 85, 0.4);
 $secondaryColorDark: rgba(12, 12, 12, 0.8);
@@ -347,7 +347,7 @@ button:active {
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: rgb(255, 70, 70);
+    background-color: $mainColor;
     border-radius: 0.5rem;
     transition: background-color 0.3s ease;
   }
