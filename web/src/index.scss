@@ -4,13 +4,13 @@ $mainColor: #28282b;
 $textColor: #ffffff;
 $mainFont: 'Poppins', sans-serif;
 
-$secondaryColor: rgba(12, 12, 12, 0.4);
+$secondaryColor: rgba(12, 12, 12, 0.6);
 $secondaryColorHighlight: #303035;
-$secondaryColorLight: rgba(0, 0, 0, 0.5);
+$secondaryColorLight: rgba(85, 85, 85, 0.4);
 $secondaryColorDark: rgba(12, 12, 12, 0.8);
 
 $gridCols: 5;
-$gridRows: 7.5;
+$gridRows: 5;
 $gridSize: 9.8vh;
 $gridGap: 4px;
 $containerSize: calc(#{$gridRows} * #{$gridSize + 0.22vh} + #{$gridRows} * #{$gridGap});
@@ -138,7 +138,7 @@ button:active {
   left: 0;
   right: 0;
   justify-content: center;
-  padding: 16px 0;
+  padding: 150px 0;
 
   .inventory-control-wrapper.vertical {
     display: flex;
@@ -207,7 +207,7 @@ button:active {
   border: none;
   text-transform: uppercase;
   font-family: $mainFont;
-  width: 25%;
+  width: 10%;
   height: $containerSize;
   font-weight: 500;
   border-radius: 1%;
@@ -347,14 +347,14 @@ button:active {
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: $mainColor;
+    background-color: rgb(255, 70, 70);
     border-radius: 0.5rem;
     transition: background-color 0.3s ease;
   }
 
 
   &::-webkit-scrollbar-track {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 0.5rem;
   }
 }
@@ -369,6 +369,9 @@ button:active {
   background-size: 7vh;
   color: $textColor;
   border-color: rgba(0, 0, 0, 0.2);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
   transition: background-color 0.3s ease;
 
   &:hover {
