@@ -134,11 +134,11 @@ button:active {
 .inventory-control {
   display: flex;
   position: absolute;
-  bottom: 0;
+  bottom: 12%;
   left: 0;
   right: 0;
   justify-content: center;
-  padding: 150px 0;
+  padding: 15px 0;
 
   .inventory-control-wrapper.vertical {
     display: flex;
